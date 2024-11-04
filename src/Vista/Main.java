@@ -1,15 +1,20 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+package Vista;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
     }
+
+    public static int menu(){
+        System.out.println("1.Ingresar ");
+        System.out.println("2.MOstrar sólo los calzado de mujer ");
+        System.out.println("3.Valor Venta ");
+        System.out.println("4.Calzados Top ");
+        System.out.println("5.Total Impuesto Especifico ");
+        System.out.println("6.Total descuento ");
+        System.out.println("7.Salir ");
+
+
+
+    }
+
 }
